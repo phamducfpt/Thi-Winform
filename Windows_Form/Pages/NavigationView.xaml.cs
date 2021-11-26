@@ -50,6 +50,9 @@ namespace Windows_Form.Pages
                 case "search":
                     this.contentFrame1.Navigate(typeof(Pages.SearchContact));
                     break;
+                case "listContact":
+                    this.contentFrame1.Navigate(typeof(Pages.ListView));
+                    break;
             }
         }
     }

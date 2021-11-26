@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Contacts;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -21,23 +22,19 @@ namespace Windows_Form.Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class SearchContact : Page
+    public sealed partial class ListView : Page
     {
         private ContactModel contactModel = new ContactModel();
-        public SearchContact()
+        public ListView()
         {
             this.InitializeComponent();
-            this.Loaded += SearchContact_Loaded;
+            this.Loaded += ListView_Loaded;
         }
 
-        private void SearchContact_Loaded(object sender, RoutedEventArgs e)
+        private void ListView_Loaded(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var result = contactModel.SearchByKeyword(txtName.Text);
+            List<Contact> contacts = new List<Contact>();
+            MyListView.ItemsSource = contacts;
         }
     }
 }

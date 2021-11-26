@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Windows_Form.Entities
 {
-    class Contact
+    public class Contact
     {
         public string name { get; set; }
-        public string phone { get; set; }
+        public string phoneNumber { get; set; }
     }
 }

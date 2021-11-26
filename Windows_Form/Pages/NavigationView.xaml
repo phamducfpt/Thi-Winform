@@ -13,6 +13,7 @@
             <NavigationViewItemSeparator/>
             <NavigationViewItem Name="add" Tag="Add_Contact" Icon="AddFriend" Content="Add Contact"/>
             <NavigationViewItem Name="search" Tag="Search_Contact" Icon="Contact" Content="Search"/>
+            <NavigationViewItem Name="listContact" Tag="List_Contact" Icon="List" Content="List"/>
         </NavigationView.MenuItems>
         <Frame x:Name="contentFrame1"/>
     </NavigationView>

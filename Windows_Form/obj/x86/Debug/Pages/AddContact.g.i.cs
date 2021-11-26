@@ -15,9 +15,9 @@ namespace Windows_Form.Pages
 
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
-        private global::Windows.UI.Xaml.Controls.TextBox Name; 
+        private global::Windows.UI.Xaml.Controls.TextBox txtName; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
-        private global::Windows.UI.Xaml.Controls.TextBox PhoneNumber; 
+        private global::Windows.UI.Xaml.Controls.TextBox txtPhoneNumber; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         private bool _contentLoaded;
 

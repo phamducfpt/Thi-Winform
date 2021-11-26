@@ -11,10 +11,8 @@
     <StackPanel HorizontalAlignment="Center" Margin="0 50 0 50">
         <TextBlock Text="Search Contact" FontSize="25" FontWeight="Bold"/>
         <NavigationViewItemSeparator/>
-        <TextBlock Text="Name"/>
-        <TextBox Name="Name" Width="300" HorizontalAlignment="Left"/>
-        <TextBlock Text="PhoneNumber"/>
-        <TextBox Name="PhoneNumber" Width="300" HorizontalAlignment="Left"/>
-        <Button Content="Add Contact" Width="100" Margin="100, 10,10,10"/>
+        <TextBox x:Name="txtName" Header="Name" Width="300" HorizontalAlignment="Left"/>
+        <TextBox x:Name="txtPhoneNumber" Header="PhoneNumber" Width="300" HorizontalAlignment="Left"/>
+        <Button Content="Add Contact" Width="100" Margin="100, 10,10,10" Click="Button_Click"/>
     </StackPanel>
 </Page>
